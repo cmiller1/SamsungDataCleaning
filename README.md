@@ -47,7 +47,7 @@ Subject: Numeric. Value from 1 to 30. Each unique integer references one test su
 
 Activity: Character. Measurements we based on 6 different physical activities. These include WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-(Note: remaining dataclasses are all numeric; each variable references one data reading from the Samsung Galaxy phone used in the study; ACC variables show the acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'; BODY_ACC variables show The body acceleration signal obtained by subtracting the gravity from the total acceleration; BODY_GYRO variable show The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.)
+The remaining variables are all calculated numeric variables that show the mean of all the measurements for each variable as assessed for a subject and activity. More information on the undelying data that is used in the calculations is provided here: ACC variables show the acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'; BODY_ACC variables show The body acceleration signal obtained by subtracting the gravity from the total acceleration; BODY_GYRO variable show The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.)
 
 "tBodyAcc_mean_X"
 "tBodyAcc_mean_Y"             
