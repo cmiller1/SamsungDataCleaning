@@ -26,11 +26,17 @@ Notes on the data:
 ##***********************
 Script Summary
 (1) The script has 6 basic sections:
+
 (1.1) First the data is read into two different tables - one for the test subjects and one for the trial subjects. cbind is used to create these tables
+
 (1.2) At this point we have two dataframes, the test data with 2947 rows and 563 columns and the training data with 7352 rows and 563 columns. Next, the data is merged and sorted to add to readability in the final table. The data is merged with rbind
+
 (1.3) At this point the data contains 10299 rows and 563 columns. Now we select a subset of this data for variables related to either the mean or standard deviation data. This is accomplished by searching the descriptive variable names for the keywords mean or std and then creating a DF indexed to these variables. 
+
 (1.4) At this point the data contains 10299 rows and 81 columns. Now we apply descriptive names to the activity codes and to the columns. This is done by reading the relevant text files. The activity names must be cleaned a bit to enable the dplyr summarise function we will use later.
+
 (1.5) Now we use dplyr functions to group the data by Subject and Activity and then to summarise the data by these two variables, taking the mean of all the other columns with the summarise_each function.
+
 (1.6) Last, the script creates a text file with the output of the summarise_each function. The final table has 180 rows and 81 columns
 
 ##***********************
