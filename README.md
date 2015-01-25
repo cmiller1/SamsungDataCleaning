@@ -42,9 +42,13 @@ Script Summary
 ##***********************
 Code Book
 (1) The final txt file contains 81 variables:
+
 Subject: Numeric. Value from 1 to 30. Each unique integer references one test subject participating in the study. Participants are split into test or training groups.
+
 Activity: Character. Measurements we based on 6 different physical activities. These include WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
 (Note: remaining dataclasses are all numeric; each variable references one data reading from the Samsung Galaxy phone used in the study; ACC variables show the acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'; BODY_ACC variables show The body acceleration signal obtained by subtracting the gravity from the total acceleration; BODY_GYRO variable show The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.)
+
 "tBodyAcc_mean_X"
 "tBodyAcc_mean_Y"             
 "tBodyAcc_mean_Z"              
